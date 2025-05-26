@@ -4,13 +4,13 @@ Este repositorio presenta la solución integral a una prueba técnica orientada 
 
 Archivos incluidos
 
-* Prueba científico de datos (propuesta).pdf: Documento con preguntas teóricas y enunciados.
-* puntos_7_8.html: Notebook HTML con el desarrollo completo de los puntos prácticos.
+* Prueba científico de datos : Documento con preguntas teóricas y enunciados.
+* puntos_7_8.ipynb: Notebook con el desarrollo completo de los puntos prácticos.
 
 Contenidos
 
 
-Parte 1: Teoría (desde el PDF)
+Parte 1: Teoría
 Incluye respuestas a temas clave como:
 
 * Diferencia entre aprendizaje supervisado y no supervisado
@@ -39,6 +39,7 @@ Modelos usados:
 * DecisionTreeClassifier
 * RandomForestClassifier
 * XGBoost
+
 Técnicas adicionales:
 * Oversampling con RandomOverSampler (para mitigar desbalance de clases).
 * Validación cruzada estratificada (StratifiedKFold) con métricas como Accuracy, F1-Score, y Recall.
@@ -46,7 +47,6 @@ Técnicas adicionales:
 
 Resultados Destacados
 
-* Mejor desempeño general observado en el modelo SVC (accuracy promedio ≈ 66%).
 * Modelos con pobre precisión en clases minoritarias, resaltando la importancia del balance y ajuste de métricas.
 * Visualización clara de métricas por clase que permite evaluar equidad en el desempeño.
 
@@ -58,4 +58,3 @@ El desarrollo mostró la necesidad de:
 * Implementar estrategias de balanceo como el oversampling.
 * Usar validación cruzada para una evaluación robusta.
 
-Este trabajo permite evidenciar competencias tanto teóricas como prácticas requeridas para un rol de científico de datos.
